@@ -1,0 +1,74 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roman Sans', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Container for the form */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style for the form */
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+    width: 30%; /* Full width */
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+select {
+    width: 50%; /* Full width */
+    padding: 12px 20px; /* Bigger and more padding */
+    margin: 8px 0; /* Add some margin */
+    display: inline-block;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box;
+}
